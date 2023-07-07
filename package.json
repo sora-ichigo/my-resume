@@ -11,5 +11,8 @@
   "devDependencies": {
     "jsonresume-theme-elegant": "^1.16.1",
     "resumed": "^3.0.1"
+  },
+  "dependencies": {
+    "elegant": "^0.9.9"
   }
 }

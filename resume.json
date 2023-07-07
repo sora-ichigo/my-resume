@@ -17,9 +17,9 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "twitter",
+        "username": "igsr5_",
+        "url": "https://twitter.com/igsr5_"
       },
       {
         "network": "SoundCloud",
