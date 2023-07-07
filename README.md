@@ -1,4 +1,4 @@
-# my-resume
+# my-resume 🗄️
 
 This repository is dedicated to showcasing the resume of Sora Ichigo (@igsr5). It serves as a centralized location for the most current information about Sora Ichigo's career and is regularly updated.
 
