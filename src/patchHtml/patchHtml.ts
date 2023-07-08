@@ -13,7 +13,10 @@ const metaTags = `
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 `;
 
-async function patchHtmlFile(filePath: string): Promise<string> {
+async function patchHtmlFile(
+  filePath: string,
+  metaTags: string
+): Promise<string> {
   const data = await readFile(filePath, "utf8");
 
   const $ = load(data);
