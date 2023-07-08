@@ -4,16 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:main": "resumed render -o public/index.html resume.json",
+    "build:head": "ts-node src/entrypoints/patchHtml.ts",
+    "build": "run-s build:*",
+    "dev": "http-server public -o -c-1",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.2",
     "http-server": "^14.1.1",
+    "jest": "^29.6.1",
     "jsonresume-theme-elegant": "^1.16.1",
-    "resumed": "^3.0.1"
+    "npm-run-all": "^4.1.5",
+    "resumed": "^3.0.1",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "elegant": "^0.9.9"
   }
 }
