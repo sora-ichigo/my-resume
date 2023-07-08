@@ -8,6 +8,7 @@ const metaTags = `
 <meta property="og:image" content="https://res.cloudinary.com/drb9hgnv3/image/upload/v1688789772/Screen_Shot_2023-07-08_at_13.15.28_nixbnw.png" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="ja_JP" />
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 `;
 
 (async () => {
