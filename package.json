@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "resumed render -o public/index.html resume.json",
+    "dev": "http-server public -o -c-1"
   },
   "author": "",
   "license": "ISC",
