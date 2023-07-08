@@ -1,5 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "jsonresume-theme-elegant",
+    "favicon": "favicon.ico"
+  },
+
   "basics": {
     "name": "Sora Ichigo",
     "label": "Web Developer",
@@ -72,62 +80,12 @@
       ]
     }
   ],
-  "書ける時が来たら書く_education": [
-    {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
-    }
-  ],
-  "書ける時が来たら書く_awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
   "publications": [
     {
-      "name": "wantedly.com を Next.js に移行した話 - 背景・移行でやったこと",
-      "releaseDate": "2021-12-21",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/359076",
-      "summary": "wantedly.comのWebフロントエンドをNext.jsに移行した経緯とプロセスの紹介"
-    },
-    {
-      "name": "next/image はやっぱりすごかった - 機能紹介/パフォーマンス改善例/気をつけポイント",
-      "releaseDate": "2022-03-08",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/385515",
-      "summary": "next/image の機能紹介と画像配信パフォーマンスの分析、注意点などを解説"
-    },
-    {
-      "name": "GoのS3 ダウンロード処理で知っておくと良いこと - バックエンドパフォーマンス改善",
-      "releaseDate": "2022-04-26",
-      "url": "https://zenn.dev/ichigo_dev/articles/2ff2ae3ce02e2a5f15da",
-      "summary": "aws-sdk-go(aws-sdk-go-v2)でs3のダウンロード処理の速度改善を行う方法とioパッケージに関する解説"
-    },
-    {
-      "name": "Wantedlyサービスにおける画像体験の裏側",
-      "releaseDate": "2022-08-22",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/423755",
-      "summary": "Wantedlyサービス上で表示する画像を以下にユーザー体験よく、開発者体験よく扱っているのかを解説"
-    },
-    {
-      "name": "Ruby 3.2でERBテンプレートのカバレッジが測れるようになるぞ!! (1) eval, ERB 編",
-      "releaseDate": "2022-09-30",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/437514",
-      "summary": "ruby/ruby の master ブランチにマージされた coverage の変更に関する解説 その1"
-    },
-    {
-      "name": "Ruby 3.2, You’ll be able to measure coverages of ERB template!! (1) eval, ERB part",
-      "releaseDate": "2022-09-30",
-      "url": "https://medium.com/@igsr5.dev/ruby-3-2-youll-be-able-to-measure-coverages-of-erb-template-1-eval-erb-part-abe57748a66",
-      "summary": "Explanation of coverage changes merged into ruby/ruby's master branch"
+      "name": "内製ツール wantedly-maintenance を導入してシステムメンテナンスの体験を最適化する",
+      "releaseDate": "2023-07-07",
+      "url": "https://www.wantedly.com/companies/wantedly/post_articles/518307",
+      "summary": "Wantedlyのシステムメンテナンスを体験を最適化するために開発した内製ツール wantedly-maintenance の紹介"
     },
     {
       "name": "Ruby 3.2でERBテンプレートのカバレッジが測れるようになるぞ!! (2) SimpleCov, Rails View ファイル編",
@@ -136,10 +94,40 @@
       "summary": "ruby/ruby の master ブランチにマージされた coverage の変更に関する解説 その2"
     },
     {
-      "name": "内製ツール wantedly-maintenance を導入してシステムメンテナンスの体験を最適化する",
-      "releaseDate": "2023-07-07",
-      "url": "https://www.wantedly.com/companies/wantedly/post_articles/518307",
-      "summary": "Wantedlyのシステムメンテナンスを体験を最適化するために開発した内製ツール wantedly-maintenance の紹介"
+      "name": "Ruby 3.2, You’ll be able to measure coverages of ERB template!! (1) eval, ERB part",
+      "releaseDate": "2022-09-30",
+      "url": "https://medium.com/@igsr5.dev/ruby-3-2-youll-be-able-to-measure-coverages-of-erb-template-1-eval-erb-part-abe57748a66",
+      "summary": "Explanation of coverage changes merged into ruby/ruby's master branch"
+    },
+    {
+      "name": "Ruby 3.2でERBテンプレートのカバレッジが測れるようになるぞ!! (1) eval, ERB 編",
+      "releaseDate": "2022-09-30",
+      "url": "https://www.wantedly.com/companies/wantedly/post_articles/437514",
+      "summary": "ruby/ruby の master ブランチにマージされた coverage の変更に関する解説 その1"
+    },
+    {
+      "name": "Wantedlyサービスにおける画像体験の裏側",
+      "releaseDate": "2022-08-22",
+      "url": "https://www.wantedly.com/companies/wantedly/post_articles/423755",
+      "summary": "Wantedlyサービス上で表示する画像を以下にユーザー体験よく、開発者体験よく扱っているのかを解説"
+    },
+    {
+      "name": "GoのS3 ダウンロード処理で知っておくと良いこと - バックエンドパフォーマンス改善",
+      "releaseDate": "2022-04-26",
+      "url": "https://zenn.dev/ichigo_dev/articles/2ff2ae3ce02e2a5f15da",
+      "summary": "aws-sdk-go(aws-sdk-go-v2)でs3のダウンロード処理の速度改善を行う方法とioパッケージに関する解説"
+    },
+    {
+      "name": "next/image はやっぱりすごかった - 機能紹介/パフォーマンス改善例/気をつけポイント",
+      "releaseDate": "2022-03-08",
+      "url": "https://www.wantedly.com/companies/wantedly/post_articles/385515",
+      "summary": "next/image の機能紹介と画像配信パフォーマンスの分析、注意点などを解説"
+    },
+    {
+      "name": "wantedly.com を Next.js に移行した話 - 背景・移行でやったこと",
+      "releaseDate": "2021-12-21",
+      "url": "https://www.wantedly.com/companies/wantedly/post_articles/359076",
+      "summary": "wantedly.comのWebフロントエンドをNext.jsに移行した経緯とプロセスの紹介"
     }
   ],
   "skills": [
@@ -222,11 +210,24 @@
       "type": "application"
     }
   ],
-  "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00",
-    "theme": "jsonresume-theme-elegant",
-    "favicon": "favicon.ico"
-  }
+  "書ける時が来たら書く_education": [
+    {
+      "institution": "University of Oklahoma",
+      "url": "https://www.ou.edu/",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
+    }
+  ],
+  "書ける時が来たら書く_awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ]
 }
