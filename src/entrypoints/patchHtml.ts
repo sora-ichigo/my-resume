@@ -13,13 +13,13 @@ const metaTags = `
 
 const scriptTags = `
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RX5CTP05JJ"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C9TLGR5M0M"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-RX5CTP05JJ');
+  gtag('config', 'G-C9TLGR5M0M');
 </script>
 `;
 
