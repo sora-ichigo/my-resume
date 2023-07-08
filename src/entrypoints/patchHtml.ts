@@ -11,6 +11,9 @@ const metaTags = `
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 `;
 
+const scriptTags = `
+`;
+
 (async () => {
-  await patchHtmlFile(filePath, metaTags);
+  await patchHtmlFile(filePath, metaTags, scriptTags);
 })();

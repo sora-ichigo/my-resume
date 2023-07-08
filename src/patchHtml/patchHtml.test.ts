@@ -25,10 +25,13 @@ test("patchHtmlFile should add the correct meta tags", async () => {
   <meta name="author" content="John Doe">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 `;
+  const scriptTags = `
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+`;
 
   await writeFile(testFilePath, initialHtml, "utf8");
 
-  const updatedHtml = await patchHtmlFile(testFilePath, metaTags);
+  const updatedHtml = await patchHtmlFile(testFilePath, metaTags, scriptTags);
 
   const $ = cheerio.load(updatedHtml);
   expect($('meta[charset="UTF-8"]').length).toBe(1);
@@ -42,6 +45,12 @@ test("patchHtmlFile should add the correct meta tags", async () => {
   expect($('meta[name="viewport"]').attr("content")).toBe(
     "width=device-width, initial-scale=1.0"
   );
+
+  expect(
+    $(
+      'script[src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"]'
+    ).length
+  ).toBe(1);
 
   fs.unlinkSync(testFilePath);
 });
