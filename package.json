@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "resumed render -o public/index.html resume.json",
+    "build:main": "resumed render -o public/index.html resume.json",
+    "build:head": "ts-node src/entrypoints/patchHtml.ts",
+    "build": "run-s build:*",
     "dev": "http-server public -o -c-1"
   },
   "author": "",
@@ -12,7 +14,10 @@
   "devDependencies": {
     "http-server": "^14.1.1",
     "jsonresume-theme-elegant": "^1.16.1",
-    "resumed": "^3.0.1"
+    "npm-run-all": "^4.1.5",
+    "resumed": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
   },
   "dependencies": {
     "elegant": "^0.9.9"
