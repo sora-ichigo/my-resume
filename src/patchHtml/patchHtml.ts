@@ -13,7 +13,7 @@ async function patchHtmlFile(
   const data = await readFile(filePath, "utf8");
 
   const $ = load(data);
-  $("head").append(metaTags);
+  $("head").prepend(metaTags);
   $("body").append(scriptTags);
 
   const updatedHtml = $.html();
