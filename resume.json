@@ -2,10 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00",
     "theme": "jsonresume-theme-elegant",
-    "favicon": "favicon.ico"
   },
 
   "basics": {
@@ -14,7 +11,7 @@
     "picture": "https://res.cloudinary.com/drb9hgnv3/image/upload/v1688734156/Screen_Shot_2023-07-07_at_21.49.06_tbqwxx.png",
     "email": "igsr5.dev@gmail.com",
     "url": "http://igsr5.dev",
-    "summary": "白金台のIT企業でソフトウェアエンジニアとして働いています。バックエンド領域を主戦場に生きていますがフロントエンドやインフラなどの隣接領域も担当します。",
+    "summary": "白金台のIT企業でソフトウェアエンジニアとして働いています。バックエンド領域を主戦場に生きていますがフロントエンドやインフラなどの隣接領域も担当します。\n\n最近の目標は他のエンジニアとの交流を増やすことです。",
     "location": {
       "city": "Tokyo",
       "countryCode": "JP",
@@ -48,7 +45,7 @@
       "summary": "社内のDX(開発者体験)のために理想的な開発基盤の構築に従事",
       "highlights": [
         "CI/CD基盤のメンテナンス",
-        "[k8s cluster内での開発を実現する内製ツールのメンテナンス](https://www.wantedly.com/companies/wantedly/post_articles/518307)",
+        "[k8s cluster内での開発を実現する内製ツールのメンテナンス](https://docs.wantedly.dev/fields/dev-tools/fork)",
         "[システムメンテナンス時のサービス停止ツールの開発](https://www.wantedly.com/companies/wantedly/post_articles/518307)",
         "社内開発ドキュメントの管理ツールとして https://backstage.io の導入"
       ]
