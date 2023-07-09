@@ -2,9 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "theme": "jsonresume-theme-elegant",
+    "theme": "jsonresume-theme-elegant"
   },
-
   "basics": {
     "name": "Sora Ichigo",
     "label": "Web Developer",
