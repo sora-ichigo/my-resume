@@ -103,3 +103,4 @@ yarn-error.log*
 *.sln
 *.sw?
 
+public/index.html
