@@ -46,7 +46,7 @@
         "CI/CD基盤のメンテナンス",
         "[k8s cluster内での開発を実現する内製ツールのメンテナンス](https://docs.wantedly.dev/fields/dev-tools/fork)",
         "[システムメンテナンス時のサービス停止ツールの開発](https://www.wantedly.com/companies/wantedly/post_articles/518307)",
-        "社内開発ドキュメントの管理ツールとして https://backstage.io の導入"
+        "社内開発ドキュメントの管理ツールとして [backstage](https://backstage.io) の導入"
       ]
     },
     {
