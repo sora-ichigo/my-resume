@@ -78,6 +78,12 @@
   ],
   "publications": [
     {
+      "name": "最近得た ActiveRecord::Core::freeze に関する新たなメンタルモデルの話 / 問題解決テクニックの一例紹介",
+      "releaseDate": "2023-07-12",
+      "url": "https://www.wantedly.com/companies/wantedly/post_articles/520242",
+      "summary": "開発者として持っておくべきメンタルモデルのあり方と問題解決テクニックについての自分の考えを紹介"
+    },
+    {
       "name": "内製ツール wantedly-maintenance を導入してシステムメンテナンスの体験を最適化する",
       "releaseDate": "2023-07-07",
       "url": "https://www.wantedly.com/companies/wantedly/post_articles/518307",
