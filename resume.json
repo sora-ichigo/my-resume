@@ -90,6 +90,12 @@
       "summary": "Wantedlyのシステムメンテナンスを体験を最適化するために開発した内製ツール wantedly-maintenance の紹介"
     },
     {
+      "name": "技術書展14 『WANTEDLY TECH BOOK 12』共著",
+      "releaseDate": "2023-05-31",
+      "url": "https://techbookfest.org/product/r2kTBWxtVGnxVGfQZSAJZn?productVariantID=fr536YDm19JV5H0aMqm3bm",
+      "summary": "「Wantedly の社内ドキュメント「TDD 入門編」の紹介」という題目で TDD の基本概念について解説"
+    },
+    {
       "name": "Ruby 3.2でERBテンプレートのカバレッジが測れるようになるぞ!! (2) SimpleCov, Rails View ファイル編",
       "releaseDate": "2022-10-19",
       "url": "https://www.wantedly.com/companies/wantedly/post_articles/440752",
@@ -106,6 +112,12 @@
       "releaseDate": "2022-09-30",
       "url": "https://www.wantedly.com/companies/wantedly/post_articles/437514",
       "summary": "ruby/ruby の master ブランチにマージされた coverage の変更に関する解説 その1"
+    },
+    {
+      "name": "技術書展13 『WANTEDLY TECH BOOK 11』共著",
+      "releaseDate": "2022-09-01",
+      "url": "https://techbookfest.org/product/wfphEZB7nQwrVLLqnqATV8?productVariantID=azFgRdNaXZ7BmqB00aDMdJ",
+      "summary": "Wantedly サービスにおける画像体験の裏側についての話を寄稿"
     },
     {
       "name": "Wantedlyサービスにおける画像体験の裏側",
