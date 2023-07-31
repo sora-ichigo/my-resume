@@ -104,6 +104,12 @@
   ],
   "publications": [
     {
+      "name": "パッケージアップデートの目的は事業の継続性の確保と長期的なコスト削減のためである",
+      "releaseDate": "2023-07-31",
+      "url": "https://zenn.dev/ichigo_dev/articles/packageupdatediscusstion",
+      "summary": "日頃のパッケージアップデートという活動の必要性とその特性について紹介"
+    },
+    {
       "name": "最近得た ActiveRecord::Core::freeze に関する新たなメンタルモデルの話 / 問題解決テクニックの一例紹介",
       "releaseDate": "2023-07-12",
       "url": "https://www.wantedly.com/companies/wantedly/post_articles/520242",
