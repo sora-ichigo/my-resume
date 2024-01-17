@@ -6,11 +6,11 @@
   },
   "basics": {
     "name": "Sora Ichigo",
-    "label": "Web Developer",
+    "label": "Backend Engineer / DevOps Engineer",
     "picture": "https://res.cloudinary.com/drb9hgnv3/image/upload/v1688734156/Screen_Shot_2023-07-07_at_21.49.06_tbqwxx.png",
     "email": "igsr5.dev@gmail.com",
     "url": "http://igsr5.dev",
-    "summary": "白金台のIT企業でソフトウェアエンジニアとして働いています。バックエンド領域を主戦場に生きていますがフロントエンドやインフラなどの隣接領域も担当します。\n\n最近の目標は他のエンジニアとの交流を増やすことです。",
+    "summary": "生産性、ソフトウェアテストがつく言葉はだいたい好きなバックエンドエンジニアです。たまにフロントエンドエンジニアやインフラエンジニアにもなります。\n\n最近の目標は他のエンジニアとの交流を増やすことです。",
     "location": {
       "city": "Tokyo",
       "countryCode": "JP",
@@ -35,6 +35,18 @@
     ]
   },
   "work": [
+    {
+      "name": "Wantedly, Inc.",
+      "location": "Tokyo, Japan",
+      "position": "Backend Engineer / Visit Growth Squad / DevOps Enabling / OnCall Member",
+      "url": "https://wantedlyinc.com",
+      "startDate": "2023-12",
+      "summary": "新規プロダクト開発のバックエンド設計や実装に責任を持つ",
+      "highlights": [
+        "新規開発のシステム設計およびバックエンドリード",
+        "[DevOps 推進チームのリード](https://speakerdeck.com/igsr5/devops-guild)"
+      ]
+    },
     {
       "name": "Wantedly, Inc.",
       "location": "Tokyo, Japan",
@@ -103,6 +115,42 @@
     }
   ],
   "publications": [
+    {
+      "name": "テストカバレッジを 100%にするということ / Achieving 100% Test",
+      "url": "https://speakerdeck.com/igsr5/achieving-100-percent-test",
+      "releaseDate": "2024-01-11",
+      "summary": "omotesando.rb #93 の登壇資料です。https://omotesandorb.connpass.com/event/305893/"
+    },
+    {
+      "name": "GitHub Projects (v2) で個人の Issue/PR 管理をエンジニアリングする",
+      "releaseDate": "2024-01-04",
+      "url": "https://igsr5.hatenablog.com/entry/2024/01/04/123127",
+      "summary": "実際に業務で利用している Issue/PR 管理の自動化手法を紹介"
+    },
+    {
+      "name": "2023年の振り返り",
+      "url": "https://igsr5.hatenablog.com/entry/2023/12/31/214215",
+      "releaseDate": "2023-12-31",
+      "summary": "2023年の振り返りと来年の抱負を書きました"
+    },
+    {
+      "name": "DevOps の社内浸透を目指してチームを立ち上げた話 / DevOps Guild",
+      "url": "https://speakerdeck.com/igsr5/devops-guild",
+      "releaseDate": "2023-12-14",
+      "summary": "2023/12/14 成長ベンチャーの開発生産性、なにやってる？ 【Developers Meetup】の登壇資料です。 https://anotherworks.connpass.com/event/300288/"
+    },
+    {
+      "name": "プロジェクトマネジメント観点でポストモーテムを実施する",
+      "url": "https://speakerdeck.com/igsr5/shi-li-shao-jie-mu-biao-woding-metejin-meruxiao-guo-de-nahosutomotemu",
+      "releaseDate": "2023-12-07",
+      "summary": "2023年ヒヤリハット大反省会@新宿 の登壇資料です。"
+    },
+    {
+      "name": "テスト文化の成熟：自動テストが浸透した組織が次に目指すべきステップ",
+      "url": "https://speakerdeck.com/igsr5/tesutowen-hua-nocheng-shou-zi-dong-tesutogajin-tou-sitazu-zhi-gaci-nimu-zhi-subekisutetupu",
+      "releaseDate": "2023-09-13",
+      "summary": "2023/09/13「テストパフォーマンス向上のためのテスト戦略〜自動化の秘訣 Lunch LT〜」で登壇した内容です。"
+    },
     {
       "name": "パッケージアップデートの目的は事業の継続性の確保と長期的なコスト削減のためである",
       "releaseDate": "2023-07-31",
@@ -197,7 +245,8 @@
         "Node.js",
         "GraphQL",
         "gRPC",
-        "RESTful"
+        "RESTful",
+        "Architecture"
       ]
     },
     {
@@ -211,15 +260,8 @@
       ]
     },
     {
-      "name": "Knowledge",
-      "keywords": [
-        "Project Management",
-        "DevOps",
-        "SRE",
-        "Agile",
-        "Scrum",
-        "Some Engineering Practices (TDD, etc)"
-      ]
+      "name": "生産性改善",
+      "keywords": ["DevOps", "SRE", "Platform Engineering"]
     }
   ],
   "languages": [
@@ -230,12 +272,19 @@
   ],
   "interests": [
     {
-      "name": "アニメ/漫画",
+      "name": "漫画",
       "keywords": ["NARUTO", "キングダム", "呪術廻戦", "進撃の巨人"]
     },
     {
-      "name": "チイカワ",
-      "keywords": ["ハチワレ", "ちいかわ", "うさぎ"]
+      "name": "健康管理にハマってる",
+      "keywords": [
+        "睡眠スコアアプリ",
+        "体組成計アプリ",
+        "ランニング",
+        "早起き",
+        "筋トレ",
+        "ストレッチ"
+      ]
     }
   ],
   "時が来たら書く_projects": [
